@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="RestAssuredProject">
+<suite name="Restfulbooker Project">
+    <test verbose="2" preserve-order="true" name="C:/Users/91844/IdeaProjects/RestAssuredProject">
         <classes>
             <class name="test.lab261">
                 <methods>
                     <include name="getRequest"/>
                     <include name="getRequest2"/>
+                </methods>
+            </class>
+            <class name="test.lab262">
+                <methods>
+                    <include name="getRequest"/>
+                    <include name="getRequest2"/>
+                    <include name="getRequest3"/>
                 </methods>
             </class>
         </classes>
